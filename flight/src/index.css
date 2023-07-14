@@ -78,6 +78,9 @@ cursor: pointer;
   display: grid;
   align-items: center;
 }
+.none{
+  display: none;
+}
 .btn{
   padding: .7rem 1.5rem;
   background: var(--prmiaryColor);
