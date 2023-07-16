@@ -1,4 +1,5 @@
 import React from 'react'
+import { HiOutlineLocationMarker } from "react-icons/hi";
 
 const Search = () => {
   return (
@@ -20,6 +21,20 @@ const Search = () => {
           </div>
 
         </div>
+
+
+        <div className="searchInputs flex">
+          <div className="singleInput flex">
+            <div className="iconDiv">
+              <HiOutlineLocationMarker className="icon" />
+            </div>
+            <div className="texts">
+              <h4>Location</h4>
+              <input type="text" placeholder="Where do you want to go" />
+            </div>
+          </div>
+</div>
+
       </div>
     </div>
   )
