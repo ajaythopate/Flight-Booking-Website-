@@ -60,6 +60,24 @@ const Search = () => {
               <input type="text" placeholder="Add date" />
             </div>
           </div>
+
+
+          <div className="singleInput flex">
+            <div className="iconDiv">
+              <RxCalendar className="icon" />
+            </div>
+            <div className="texts">
+              <h4>Check Out</h4>
+              <input type="text" placeholder="Add date" />
+            </div>
+          </div>
+
+
+          <button className="btn btnBlock flex">Search Flight</button>
+
+
+
+      
 </div>
 
       </div>
