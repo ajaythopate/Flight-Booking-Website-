@@ -51,7 +51,7 @@ const Search = () => {
 
 
 
-          {/* <div className="singleInput flex">
+          <div className="singleInput flex">
             <div className="iconDiv">
               <RxCalendar className="icon" />
             </div>
@@ -59,7 +59,7 @@ const Search = () => {
               <h4>Check In</h4>
               <input type="text" placeholder="Add date" />
             </div>
-          </div> */}
+          </div>
 </div>
 
       </div>
