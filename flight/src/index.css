@@ -179,6 +179,12 @@ font-size: 700;
   height: 30px;
 
 }
+  /* .menu{
+    flex-direction: row;
+    gap: 6rem;
+    text-align: center;
+
+  } */
 
 @media screen  and (max-width:768px) {
   .navBarMenu{
