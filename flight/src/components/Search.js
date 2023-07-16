@@ -15,9 +15,9 @@ const Search = () => {
           <div className="singleBtn">
             <span>Business Class</span>
           </div>
-          {/* <div className="singleBtn">
+          <div className="singleBtn">
             <span>First Class</span>
-          </div> */}
+          </div>
 
         </div>
       </div>
