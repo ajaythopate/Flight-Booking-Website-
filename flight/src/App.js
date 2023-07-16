@@ -1,7 +1,7 @@
 import React from "react";
-import './App.css';
+
 import Navbar from "./components/Navbar";
-// import Home from "./components/Home";
+import Home from "./components/Home";
 // import Search from "./components/Search";
 // import Support from "./components/Support";
 // import Subscribes from "./components/Subscribes";
@@ -15,8 +15,8 @@ function App() {
   return (
     <div >
       <Navbar />
-      {/* <Home />
-      <Search />
+      <Home />
+      {/* <Search />
       <Support />
       <Subscribes />
       <Travelers />
