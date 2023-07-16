@@ -132,7 +132,7 @@ color: var(--blackColor);
 
 
 
-/* navBar section styling
+/* navBar section styling */
 
 .navBar{
   position: fixed;
@@ -178,7 +178,7 @@ font-size: 700;
 .Logo{
   height: 30px;
 
-} */
+}
 
 /* @media screen  and (max-width:768px) {
   .navBarMenu{
