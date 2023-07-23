@@ -20,8 +20,9 @@ const Navbar = () => {
 }
     const removeNavBar = () => {
         setActive('navBarMenu')
-     }
+    }
     
+
 
     return (
         <div className="navbar flex">

@@ -1,0 +1,73 @@
+
+
+
+:root{
+  --prmiaryColor:hsl(225 ,50%,48%);
+  --secondaryColor:hsl(180,17%,95%);
+  --colorOne:hsl(15,74%,70%);
+  --colorTwo:hsl(28,100%,82%);
+--HoverColor:hsl(225,56%,59%);
+--WhiteColor:  hsl(0,0%,100%);
+--blackColor:  hsl(0,0%,12%);
+--textColor:  hsl(240,1%,48%);
+--borderColor:  hsl(0,0%,83%);
+--WhiteColorDeam:  hsl(0,0%,93%);
+--greyBg:  hsl(0,0%,96%);
+--greyText:  hsl(145,145,145);
+--inputColor:  hsl(330,12%,97%);
+--bosShadow:  box-Shadow: rgba(0,0,0,0,0.1) 0px 10px 15px -3px ,rgba(0,0,0.05)
+0px 4px 6px -2px;
+
+}
+.titlesDiv{
+    text-align: center;
+}
+.titlesDiv small{
+    letter-spacing: .8rem;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: var(--blackColor);
+    line-height: 1.5rem;
+}
+
+
+.infoDiv{
+    margin-top: 2rem;
+    gap: 2.5rem;
+}
+
+.textDiv{
+    gap: 1.5rem;
+}
+
+.singleInfo .number{
+    background: var(--prmiaryColor);
+    padding: 5px 12px;
+    width: 40px;
+    border-radius: 2rem;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--WhiteColor);
+    
+} 
+.singleInfo .numberColorOne{
+     background: var(--blackColor);
+     gap: 3rem;
+    padding: 5px 12px;
+    width: 40px;
+    border-radius: 3rem;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--WhiteColor);
+}
+
+
+
+.gridImg{
+    height: 200px;
+    width: 200px;
+    margin-top: 2rem;
+border-radius: 5rem;
+}

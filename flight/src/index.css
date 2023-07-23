@@ -43,7 +43,7 @@ body{
 }
 
 a{
-  text-decoration: none;
+ text-decoration: none;
 
 }
 
@@ -89,39 +89,39 @@ cursor: pointer;
   cursor: pointer;
   color: var(--WhiteColor);
 }
-a{
+.a{
   color: var(--whiteColor);
   font-weight:500;
 }
-/* :hover{
+/* .a:hover{
     background: var(--HoverColor);
   } */
-
+/* 
 .img.video{
 
   width: 1%;
   height: 10%;
-}
+} */
 
-input{
+.input{
   font-size: 100%;
   color: var(--greyText);
 
 }
 
-p{
+.p{
   font-size: 13px;
   color: var(--greyText);
   line-height: 22px;
 }
 
-h4{
+.h4{
   padding: 1rem 0;
   font-weight: 700;
   color: var(--blackColor);
 }
 
-h2{
+.h2{
 font-size: 25px;
 padding: 1rem 0;
 color: var(--blackColor);
