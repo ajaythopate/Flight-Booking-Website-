@@ -5,10 +5,10 @@ import Home from "./components/Home";
 import Search from "./components/search/search";
 import Support from "./components/support/Support";
 import Info from "./components/information/Info";
+import Lounge from "./components/Lounge/Lounge";
 
 // import Subscribes from "./components/Subscribes";
 // import Travelers from "./components/Travelers";
-// import Lounge from "./components/Lounge";
 // import Footer from "./components/Footer";
 
 
@@ -20,10 +20,11 @@ function App() {
       <Search />
       <Support />
       <Info />
-
-      {/* <Subscribes />
-      <Travelers />
       <Lounge />
+
+{/* 
+      <Subscribes />
+      <Travelers />
       <Footer /> */}
      
     </div>
