@@ -6,9 +6,9 @@ import Search from "./components/search/search";
 import Support from "./components/support/Support";
 import Info from "./components/information/Info";
 import Lounge from "./components/Lounge/Lounge";
+import Travelers from "./components/Travelers/Travelers";
 
 // import Subscribes from "./components/Subscribes";
-// import Travelers from "./components/Travelers";
 // import Footer from "./components/Footer";
 
 
@@ -21,10 +21,11 @@ function App() {
       <Support />
       <Info />
       <Lounge />
-
-{/* 
-      <Subscribes />
       <Travelers />
+
+
+
+      {/* <Subscribes />
       <Footer /> */}
      
     </div>
