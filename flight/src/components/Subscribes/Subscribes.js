@@ -1,8 +1,9 @@
 import React from 'react';
+import "../../components/Subscribes/subscribes.css";
 
 const Subscribes = () => {
   return (
-    <div classsName="subscribe section">
+    <div className="subscribe section">
       <div className="sectionConatiner container">
         <h2>Subscribe Newsletters & get Latest news</h2>
         <div className="inputDiv flex">
