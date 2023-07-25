@@ -8,7 +8,7 @@ import Info from "./components/information/Info";
 import Lounge from "./components/Lounge/Lounge";
 import Travelers from "./components/Travelers/Travelers";
 import Subscribes from "./components/Subscribes/Subscribes";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer/Footer";
 
 
 function App() {
@@ -22,11 +22,7 @@ function App() {
       <Lounge />
       <Travelers />
       <Subscribes />
-
-
-
-
-      {/* <Footer /> */}
+      <Footer />
      
     </div>
   );
