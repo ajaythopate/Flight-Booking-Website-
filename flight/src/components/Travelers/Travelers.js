@@ -28,7 +28,7 @@ const Travelers = () => {
 
               <div className="travelerName">
                 <span>IsraTech</span>
-                @inratech8
+                <p>@inratech8</p>
               </div>
             </div>
           </div>
