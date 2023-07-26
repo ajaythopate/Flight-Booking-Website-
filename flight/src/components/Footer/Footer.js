@@ -1,12 +1,13 @@
 import React from 'react';
+import "../../components/Footer/footer.css";
 
 import { TiSocialFacebook } from "react-icons/ti";
 import { AiOutlineTwitter } from "react-icons/ai";
 import { AiFillYoutube } from "react-icons/ai";
-// import { AiOutlineTwitter } from "react-icons/ai";
 
 const Footer = () => {
   return (
+    <div className="footer">
     <div className="sectionConatiner container grid">
       <div className="gridOne">
         <p>Your mind should be stringer than your feelings, fly!</p>
@@ -20,7 +21,7 @@ const Footer = () => {
       <div className="footerLinks">
         <span classsName="linktitle">Information</span>
         <li>
-          <a href="" >Home</a>
+          <a href="/" >Home</a>
         </li>
         <li>
           <a href="" >Explore</a>
@@ -66,24 +67,25 @@ const Footer = () => {
       <div className="footerLinks">
         <span classsName="linktitle">Information</span>
         <li>
-          <a href="" >Chauffuer</a>
+          <a href="#" >Chauffuer</a>
         </li>
         <li>
-          <a href="" >Our partners</a>
+          <a href="#" >Our partners</a>
         </li>
         <li>
-          <a href="" >Destination</a>
+          <a href="#" >Destination</a>
         </li>
         <li>
-          <a href="" >Careers</a>
+          <a href="#" >Careers</a>
         </li>
         <li>
-          <a href="" >transportation</a>
+          <a href="#" >transportation</a>
         </li>
         <li>
-          <a href="" >Programe rules</a>
+          <a href="#">Programe rules</a>
         </li>
       </div>
+    </div>
     </div>
   )
 }
