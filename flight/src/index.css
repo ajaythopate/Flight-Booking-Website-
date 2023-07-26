@@ -242,31 +242,3 @@ font-size: 700;
 }
 
 
-.home{
-  padding-top: 10rem;
-  text-align: center;
-  gap: 2rem;
-  flex-direction: column;
-}
-.mainText{
-  color: var(--blackColor);
-  font-weight:700;
-  font-size: 15px;
-  line-height: 2.5rem;
-}
-/* .imgDiv{
-  width: 100%;
-} */
-/* .img{
-  border-radius: 10rem;
-  height: 300px;
-  justify-content: center;
-  z-index: 1;
-  margin-left: 800px;
-}  */
-.planImg{
-  height: 200px;
-  margin-left: 50px;
-
-
-}

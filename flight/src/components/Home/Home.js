@@ -1,6 +1,7 @@
 import React from 'react';
-// import BgImge from "../assets/bg.jpg";
-import PlaneImge from "../assets/plane.png";
+import  "../Home/home.css";
+
+import PlaneImge from "../../assets/plane.png";
 
 const Home = () => {
   return (
@@ -15,7 +16,6 @@ const Home = () => {
 
         <div className="imgDiv">
 
-          {/* <img src={BgImge} alt="BgImge" className="img"></img> */}
         </div>
 
         <img src={PlaneImge} alt="PlaneImg" className="planImg" ></img>

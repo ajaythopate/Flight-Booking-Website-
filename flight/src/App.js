@@ -1,7 +1,7 @@
 import React from "react";
 
 import Navbar from "./components/Navbar";
-import Home from "./components/Home";
+import Home from "./components/Home/Home";
 import Search from "./components/search/search";
 import Support from "./components/support/Support";
 import Info from "./components/information/Info";
