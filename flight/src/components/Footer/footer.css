@@ -34,10 +34,11 @@
 
 }
 .socialIcon{
+    justify-content: center;
     margin-top: 1rem;
     gap: 1rem;
 }
-.icon{
+.socialIcon .icon{
     height: 50px;
     width: 30px;
     border-radius: 10rem;
@@ -45,7 +46,7 @@
     pad: .4rem;
     color: var(--greyText);
 }
-:hover .icon{
+:hover .socialIcon .icon{
     background: var(--prmiaryColor);
     transform: translateY(-7px);
 border: 1px solid var(--prmiaryColor);
@@ -55,15 +56,16 @@ color: var(--WhiteColor);
 .footerLinks{
     display: grid;
 }
-.linktitle{
+.linktitle {
     color: var(--blackColor);
     font-weight: 500;
     display: block;
     padding-bottom: 1rem;
 }
-li a{
+ li a{
     display: block;
     color: var(--greyText);
+    padding: .3rem 0;
 
 }
 :hover .li a{
@@ -72,7 +74,7 @@ li a{
 }
 .copyRightDiv{
     justify-content: center;
-    margin-top: 15rem;
+    margin-top: 5rem;
     padding: 1rem;
     gap: 1rem;
     border-top: 1px solid var(--greyText);
