@@ -72,7 +72,7 @@ const Navbar = () => {
 
                 
                     
-                    <button onClick={removeNavBar} className="contacBtn flex btnOne"> Contact</button>
+                    {/* <button onClick={removeNavBar} className="contacBtn flex btnOne"> Contact</button> */}
                     
 
                     

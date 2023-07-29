@@ -38,6 +38,8 @@
      background-color: var(--secondaryColor);
     }
  .navBarTwo{
+  display: flex;
+  align-items: center;
     justify-content: space-between;
     width:100%;
     display: flex;
@@ -48,11 +50,12 @@
     transition: .3s ease-in-out;
   }
 
-  .navBar_with_Bg{
+.navBar_with_Bg{
     background: var(--secondaryColor);
     padding: .5rem 1rem;
      box-shadow: rgbe(0,0,0,0.1) 0px 10px 15px -3px,rgba(0,0,0,0.05) 0px 4px 6px -2px; 
   }
+  
 .atb{
   gap: 2rem;
 }
@@ -78,26 +81,16 @@ font-weight: 900;
   color: var(--textColor);
   font-weight: 700;
  }
-/* .menu{
+.menu{
   flex-direction: row;
   gap: .5rem;
-} */
-/* .toggleIcon{
-  display: none;
-} */
-
-.contacBtn{
-
-  display: inline;
-  padding: .7rem 1.5rem;
-  background: var(--prmiaryColor);
-  border: none;
-  outline: none;
-  border-radius: 3rem;
-  cursor: pointer;
-  color: var(--WhiteColor);
 }
+.none{
+  display: flex;
+  gap: 1.5rem;
+  color: var(--blackColor);
 
+}
 
 
 @media screen  and (max-width:768px) {
@@ -132,16 +125,8 @@ font-weight: 900;
     font-weight: 700;
   }
   
-  .btnOne{
-    display: block;
-    justify-content: center;
-    margin: auto;
-    margin-top: 1rem;
-  }
-
-
-
-  .toggleIcon{
+  
+.toggleIcon{
     font-size: 30px;
     color: var(--blackColor);
   }
@@ -151,12 +136,7 @@ font-weight: 900;
     transition: .5s ease-in-out;
   }
 
-
-
-
-
-
-  .navBar{
+.navBar{
   align-items: center;
 }
 .none{
@@ -181,7 +161,7 @@ li:hover{
 
 } 
 
-@media screen and (min-width:1332px) {
+/* @media screen and (min-width:1332px) {
 .navBarTwo .menu{
   gap: 1rem;
 }
@@ -189,4 +169,4 @@ li:hover{
   padding: 0 1.5rem;
   font-size: 14px;
 }
-}
+} */
