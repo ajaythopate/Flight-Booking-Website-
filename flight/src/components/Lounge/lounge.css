@@ -41,3 +41,22 @@ border-radius: 5rem;
     font-weight: 500;
     color: var(--blackColor);
 }
+
+@media screen and (min-width:570px) {
+.grids{
+    grid-template-columns: repeat(2,1fr);
+}
+
+}
+@media screen and (min-width:768px) {
+.sectionContainer{
+    grid-template-columns: repeat(2,1fr);
+
+}
+.textDiv{
+    grid-area: 1;
+}
+.grids{
+    grid-template-columns: repeat(2,1fr);
+}
+}

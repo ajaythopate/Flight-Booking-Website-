@@ -46,7 +46,7 @@
     pad: .4rem;
     color: var(--greyText);
 }
-:hover .socialIcon .icon{
+.socialIcon .icon:hover{
     background: var(--prmiaryColor);
     transform: translateY(-7px);
 border: 1px solid var(--prmiaryColor);
@@ -56,7 +56,7 @@ color: var(--WhiteColor);
 .footerLinks{
     display: grid;
 }
-.linktitle {
+.linktitle{
     color: var(--blackColor);
     font-weight: 500;
     display: block;
@@ -68,7 +68,7 @@ color: var(--WhiteColor);
     padding: .3rem 0;
 
 }
-:hover .li a{
+a:hover{
     transform: translateX(7px);
     color: var(--prmiaryColor);
 }
@@ -79,4 +79,27 @@ color: var(--WhiteColor);
     gap: 1rem;
     border-top: 1px solid var(--greyText);
     text-align: center;
+}
+
+@media screen and (min-width:480px) {
+.sectionConatiner{
+    align-items: flex-start;
+   grid-template-columns: repeat(2,1fr);
+}
+.footerLinks{
+    justify-content: center;
+}
+}
+
+@media screen and (min-width:570px) {
+.sectionConatiner{
+    padding-top: 2rem;
+    grid-template-columns: repeat(3,1fr);
+}
+}
+
+@media screen and (min-width:680px) {
+.sectionConatiner{
+    grid-template-columns: repeat(4,1fr);
+}
 }

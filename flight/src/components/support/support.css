@@ -30,17 +30,16 @@
     line-height: 1.5rem;
 }
 
-
 .infoDiv{
     margin-top: 2rem;
-    gap: 2.5rem;
-}
+    gap: 1.5rem;
+} 
 
 .textDiv{
     gap: 1.5rem;
 }
 
-.singleInfo .number{
+.number{
     background: var(--prmiaryColor);
     padding: 5px 12px;
     width: 40px;
@@ -51,9 +50,8 @@
     color: var(--WhiteColor);
     
 } 
-.singleInfo .numberColorOne{
-     background: var(--blackColor);
-     gap: 3rem;
+.numberColorOne{
+     background: var(--colorOne);
     padding: 5px 12px;
     width: 40px;
     border-radius: 3rem;
@@ -62,12 +60,54 @@
     font-weight: 700;
     color: var(--WhiteColor);
 }
+.numberTwo{
+     background: var(--colorTwo);
+    padding: 5px 12px;
+    width: 40px;
+    border-radius: 3rem;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--WhiteColor);
 
-
+}
+h4{
+    margin-top: 1rem;
+}
 
 .gridImg{
     height: 200px;
     width: 200px;
     margin-top: 2rem;
 border-radius: 5rem;
+}
+
+@media screen and (min-width:570px) {
+.textDiv{
+    margin-top: 2rem;
+    grid-template-columns: repeat(2,1fr);
+
+}
+
+}
+
+@media screen and (min-width:768px) {
+.infoDiv{
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    margin-top: 5rem;
+}
+.textDiv{
+    margin-top: 0rem;
+grid-template-columns: repeat(1,1fr);
+} 
+}
+@media screen and (min-width:1332px) {
+.infoDiv{
+    gap: 1rem;
+}
+.singleInfo p{
+    max-width: 500px;
+
+}
 }

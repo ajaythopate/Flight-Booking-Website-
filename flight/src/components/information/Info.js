@@ -11,7 +11,7 @@ const Info = () => {
       <div className="infoContainer container">
         <div className="titleDiv flex">
           <h2> Travel to make memories all around the world</h2>
-          <button className="btn">View All</button>
+          <button className="viewBtn">View All</button>
         </div>
 
         <div className="cardDiv grid">

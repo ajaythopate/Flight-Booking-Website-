@@ -40,6 +40,42 @@ padding: 1rem .5rem;
     font-size: 13px;
     opacity: .5;
 }
-.btn{
+ .subBtn{
+      padding: .7rem 1.5rem;
+  background: var(--prmiaryColor);
+  border: none;
+  outline: none;
+  border-radius: 3rem;
+  cursor: pointer;
+  color: var(--WhiteColor);
     width: 100%;
+    align-items: center;
+    font-weight: 500;
+}
+.subBtn:hover{
+    color: var(--WhiteColor);
+    font-weight: 700;
+}
+@media screen and (min-width:480px) {
+.sectionConatiner{
+    max-width: 80%;
+    margin: auto;
+
+
+}
+.inputDiv{
+    flex-direction: row;
+    padding: 0 .5rem;
+    border-radius: 3rem;
+}
+}
+
+@media screen and (min-width:570px) {
+.inputDiv{
+    justify-content: space-between;
+}
+.subBtn{
+    max-width: max-content;
+}
+
 }

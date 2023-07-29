@@ -19,14 +19,25 @@ const Navbar = () => {
     const [active, setActive] = useState("navBarMenu")
     const showNavBar = () => {
         setActive('navBarMenu  showNavBar')
-}
+    }
     const removeNavBar = () => {
         setActive('navBarMenu')
     }
     
 
+    const [noBg, addBg] = useState('NavBarTwo')
+    const addBgColor = () => {
+        if (window.scrollY >= 10) {
+            addBg('navBarTwo navBar_with_Bg')
+        }else{
+            addBg('navBarTwo')
+        }
+    }
+    window.addEventListener('scroll',addBgColor)
+    
 
-    return (
+
+  return (
         <div className="navbar flex">
             <div className="navBarOne flex">
                 <div>
@@ -44,7 +55,7 @@ const Navbar = () => {
             </div>
 
 
-           <div className="navBarTwo flex">
+            <div className={noBg}>
                 <div className="logoDiv">
              <img  src={logo} alt="logo" className="Logo" />
                 </div>
@@ -61,7 +72,7 @@ const Navbar = () => {
 
                 
                     
-                    <button onClick={removeNavBar} className="btn flex btnOne"> Contact</button>
+                    <button onClick={removeNavBar} className="contacBtn flex btnOne"> Contact</button>
                     
 
                     
@@ -74,7 +85,9 @@ const Navbar = () => {
                 
             </div>
         </div>
-    )
+  )
+  
 }
+  
 
 export default Navbar

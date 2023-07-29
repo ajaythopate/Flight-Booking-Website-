@@ -42,10 +42,10 @@ body{
   background: var(--whiteColor);
 }
 
-a{
+/* a{
  text-decoration: none;
 
-}
+} */
 
 
 li{
@@ -89,19 +89,16 @@ cursor: pointer;
   cursor: pointer;
   color: var(--WhiteColor);
 }
+
 .a{
   color: var(--whiteColor);
   font-weight:500;
 }
-/* .a:hover{
+.a:hover{
     background: var(--HoverColor);
-  } */
-/* 
-.img.video{
+  } 
 
-  width: 1%;
-  height: 10%;
-} */
+
 
 .input{
   font-size: 100%;
@@ -121,124 +118,14 @@ cursor: pointer;
   color: var(--blackColor);
 }
 
-.h2{
+/* .h2{
 font-size: 25px;
 padding: 1rem 0;
 color: var(--blackColor);
 
-}
+} */
 
 
 
-
-
-/* navBar section styling */
-
-.navBar{
-  position: fixed;
-  flex-direction: column;
-  width: 100%;
-  z-index: 1000;
-
-}
- .navBarOne {
-    justify-content: space-between;
-    padding:1rem;
-    width:100%;
-     color: var(--prmiaryColor);
-     background-color: var(--secondaryColor);
-    }
- .navBarTwo{
-    justify-content: space-between;
-    padding:1rem;
-    width:100%;
-    display: flex;
-    align-items: center;
-    top: 3rem;
-    padding: 1.5rem 1rem;
-    position: fixed;
-    transition: .3s ease-in-out;
-  }
-.icon:hover{
-    color:var(--prmiaryColor);
-  }
-.atb{
-  gap: 2rem;
-}
-span{
-  color: var(--blackColor);
-  font-size: 13px;
-  cursor: pointer;
-}
-:hover{
-color:var(--primaryColor);
-font-size: 700;
-} 
-
-.Logo{
-  height: 30px;
-
-}
-  /* .menu{
-    flex-direction: row;
-    gap: 6rem;
-    text-align: center;
-
-  } */
-
-@media screen  and (max-width:768px) {
-  .navBarMenu{
-    position: absolute;
-    background: var(--secondaryColor);
-    padding: 1.5rem;
-    border-radius: 10px;
-    top: 5rem;
-    right: -50%;
-    width: 200px;
-    transform: translateX(50%);
-    z-index: 2000;
-    /* box-shadow: rgbe(0,0,0,0.1) 0px 10px 15px -3px,rgba(0,0,0,0.05) 0px 4px 6px -2px;
-    border: 3px solid var(--whiteColor);
-    transition: 4s ease-in-out; */
-  }
-  .menu{
-    flex-direction: column;
-    gap: .6rem;
-    text-align: center;
-
-  }
-
-  .listItem{
-    padding: .5rem 0;
-    cursor: pointer;
-    color: var(--primaryColor);
-    font-weight: 700;
-  }
-  
-  :hover{
-    color: var(--primaryColor);
-    font-weight: 700;
-
-  }
-  .btnOne{
-    display: block;
-    justify-content: center;
-    margin: auto;
-    margin-top: 1rem;
-  }
-
-
-
-  .toggleIcon{
-    font-size: 30px;
-    color: var(--blackColor);
-  }
-
-  .showNavBar{
-    right: 50%;
-    transition: .5s ease-in-out;
-  }
-
-}
 
 

@@ -18,7 +18,8 @@ const Support = () => {
           <div className="textDiv grid">
 
             <div className="singleInfo">
-              <span className="number">01</span>              <h4>Travel requirements for Dubai</h4>
+              <span className="number">01</span>
+              <h4>Travel requirements for Dubai</h4>
               <p>Find help with booking and travel plans , see what to expect along the journey  to your favourite destination !</p>
             </div>
 
@@ -31,7 +32,7 @@ const Support = () => {
 
 
             <div className="singleInfo">
-              <span className="number">03</span>
+              <span className="numberTwo">03</span>
              <h4>Multi-risk travel insurance</h4>
               <p>Find help with booking and travel plans , see what to expect along the journey  to your favourite destination !</p>
             </div>

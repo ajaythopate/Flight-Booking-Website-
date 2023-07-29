@@ -19,7 +19,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footerLinks">
-        <span classsName="linktitle">Information</span>
+          <span className="linktitle">Information</span>
         <li>
           <a href="/" >Home</a>
         </li>
@@ -41,7 +41,7 @@ const Footer = () => {
       </div>
 
       <div className="footerLinks">
-        <span classsName="linktitle">Quick Guid</span>
+        <span className="linktitle">Quick Guid</span>
         <li>
           <a href="/" >FAQ</a>
         </li>
@@ -65,7 +65,7 @@ const Footer = () => {
 
 
       <div className="footerLinks">
-        <span classsName="linktitle">Information</span>
+        <span className="linktitle">Information</span>
         <li>
           <a href="/" >Chauffuer</a>
         </li>

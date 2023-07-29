@@ -32,6 +32,15 @@
     gap:1.5rem;
     margin-top: 3rem;
 }
+.viewBtn{
+      padding: .7rem 1.5rem;
+  background: var(--prmiaryColor);
+  border: none;
+  outline: none;
+  border-radius: 3rem;
+  cursor: pointer;
+  color: var(--WhiteColor);
+}
 .singleCard{
     background: var(--WhiteColor);
     padding: 3rem 2rem;
@@ -65,4 +74,37 @@
 }
 .colorTwo{
     background: var(--colorTwo);
+}
+
+@media screen and (min-width:570px) {
+.titleDiv{
+    flex-direction: row;
+}
+h2{
+    text-align: left;
+    max-width: 500px;
+}
+.cardDiv{
+    grid-template-columns: repeat(2,1fr);
+}
+
+}
+
+@media screen and (min-width:768px) {
+.infoContainer{
+    padding: 0 6rem;
+
+}
+.titleDiv{
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+.cardDiv{
+    grid-template-columns: repeat(2,1fr);
+}
+.singleCard{
+    max-width: 260px;
+padding: 3rem 1rem;
+}
 }
